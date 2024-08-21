@@ -1,0 +1,28 @@
+plugin:
+    name: 'satriasp.paketbuilder::lang.plugin.name'
+    description: 'satriasp.paketbuilder::lang.plugin.description'
+    author: satriasp
+    icon: oc-icon-building
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Package
+        url: satriasp/paketbuilder/paketcontroller
+        icon: icon-fighter-jet
+        sideMenu:
+            Package:
+                label: Package
+                url: satriasp/paketbuilder/paketcontroller
+                icon: icon-fighter-jet
+            side-menu-item:
+                label: Includes
+                url: satriasp/paketbuilder/includecontroller
+                icon: icon-suitcase
+            side-menu-item3:
+                label: Excludes
+                url: satriasp/paketbuilder/excludecontroller
+                icon: icon-times-circle
+            side-menu-item2:
+                label: Tujuan
+                url: satriasp/paketbuilder/tujuancontroller
+                icon: icon-trophy

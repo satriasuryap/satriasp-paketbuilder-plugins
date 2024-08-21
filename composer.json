@@ -1,0 +1,22 @@
+{
+    "name": "satriasp/paketbuilder",
+    "type": "october-plugin",
+    "description": "Maqbulah paketbuilder plugin",
+    "keywords": ["paketbuilder", "cms", "demo", "plugin"],
+
+    "authors": [
+        {
+            "name": "Satriasp",
+            "email": "satriasurya0708@gmail.com",
+            "role": "founder"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "~5.2"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}

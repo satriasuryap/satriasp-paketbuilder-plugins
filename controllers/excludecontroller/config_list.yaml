@@ -1,0 +1,12 @@
+list: $/satriasp/paketbuilder/models/excludes/columns.yaml
+modelClass: Satriasp\PaketBuilder\Models\Excludes
+title: ExcludeController
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'satriasp/paketbuilder/excludecontroller/update/:id'

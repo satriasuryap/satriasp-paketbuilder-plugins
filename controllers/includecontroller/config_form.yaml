@@ -1,0 +1,10 @@
+name: IncludeController
+form: $/satriasp/paketbuilder/models/includes/fields.yaml
+modelClass: Satriasp\PaketBuilder\Models\Includes
+defaultRedirect: satriasp/paketbuilder/includecontroller
+create:
+    redirect: 'satriasp/paketbuilder/includecontroller/update/:id'
+    redirectClose: satriasp/paketbuilder/includecontroller
+update:
+    redirect: satriasp/paketbuilder/includecontroller
+    redirectClose: satriasp/paketbuilder/includecontroller

@@ -1,0 +1,95 @@
+fields:
+    judul:
+        label: Judul
+        span: left
+        type: text
+    slug:
+        label: slug
+        span: auto
+        preset:
+            field: judul
+            type: slug
+        type: text
+    deskripsi:
+        label: Deskripsi
+        size: ''
+        span: full
+        type: textarea
+    tanggal:
+        label: Tanggal
+        mode: date
+        span: full
+        type: datepicker
+    bintang_hotel:
+        label: 'Bintang Hotel'
+        span: auto
+        min: '1'
+        max: '5'
+        type: number
+    durasi_hari:
+        label: 'Durasi Hari'
+        span: auto
+        type: text
+    keberangkatan:
+        label: Keberangkatan
+        span: auto
+        type: text
+    masa_tunggu:
+        label: 'Masa Tunggu'
+        span: auto
+        type: text
+    kursi_tersedia:
+        label: 'Kursi Tersedia'
+        span: auto
+        type: text
+    maskapai:
+        label: Maskapai
+        span: auto
+        type: text
+    total_harga:
+        label: 'Harga Total'
+        span: left
+        type: text
+    status:
+        label: 'Jenis Paket'
+        options:
+            Umrah: Umrah
+            Haji: Haji
+            Halal: Halal
+        span: auto
+        type: radio
+    promo:
+        label: 'Promo?'
+        span: left
+        type: checkbox
+    spotlight:
+        label: 'Spotlight?'
+        span: auto
+        type: checkbox
+    includes:
+        label: Include
+        nameFrom: includes
+        descriptionFrom: description
+        span: left
+        type: relation
+    excludes:
+        label: Excludes
+        nameFrom: excludes
+        descriptionFrom: description
+        span: auto
+        type: relation
+    tujuan:
+        label: Tujuan
+        nameFrom: tujuan
+        descriptionFrom: description
+        span: left
+        type: relation
+    gambar:
+        label: 'Gambar Paket'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

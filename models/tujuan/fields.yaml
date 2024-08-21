@@ -1,0 +1,12 @@
+fields:
+    tujuan:
+        label: Tujuan
+        span: auto
+        type: text
+    slug:
+        label: slug
+        span: auto
+        preset:
+            field: tujuan
+            type: slug
+        type: text

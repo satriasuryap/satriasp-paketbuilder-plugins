@@ -1,0 +1,10 @@
+name: TujuanController
+form: $/satriasp/paketbuilder/models/tujuan/fields.yaml
+modelClass: Satriasp\PaketBuilder\Models\Tujuan
+defaultRedirect: satriasp/paketbuilder/tujuancontroller
+create:
+    redirect: 'satriasp/paketbuilder/tujuancontroller/update/:id'
+    redirectClose: satriasp/paketbuilder/tujuancontroller
+update:
+    redirect: satriasp/paketbuilder/tujuancontroller
+    redirectClose: satriasp/paketbuilder/tujuancontroller

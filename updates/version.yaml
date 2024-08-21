@@ -1,0 +1,53 @@
+v1.0.1:
+    - 'Initialize plugin'
+v1.0.2:
+    - 'Created table satriasp_paketbuilder_main'
+    - builder_table_create_satriasp_paketbuilder_main.php
+v1.0.3:
+    - 'Created table satriasp_paketbuilder_includes'
+    - builder_table_create_satriasp_paketbuilder_includes.php
+v1.0.4:
+    - 'Updated table satriasp_paketbuilder_main'
+    - builder_table_update_satriasp_paketbuilder_main.php
+v1.0.5:
+    - 'Drop table satriasp_paketbuilder_main_includes_relation'
+    - builder_table_delete_satriasp_paketbuilder_main_includes_relation.php
+v1.0.6:
+    - 'Drop table satriasp_paketbuilder_includes'
+    - builder_table_delete_satriasp_paketbuilder_includes.php
+v1.0.7:
+    - 'Created table satriasp_paketbuilder_includes'
+    - builder_table_create_satriasp_paketbuilder_includes_2.php
+v1.0.8:
+    - 'Created table satriasp_paketbuilder_main_includes_relation'
+    - builder_table_create_satriasp_paketbuilder_main_includes_relation.php
+v1.0.9:
+    - 'Updated table satriasp_paketbuilder_main_includes_relation'
+    - builder_table_update_satriasp_paketbuilder_main_includes_relation.php
+v1.0.10:
+    - 'Updated table satriasp_paketbuilder_main_includes_relation'
+    - builder_table_update_satriasp_paketbuilder_main_includes_relation_2.php
+v1.0.11:
+    - 'Created table satriasp_paketbuilder_tujuan'
+    - builder_table_create_satriasp_paketbuilder_tujuan.php
+v1.0.12:
+    - 'Created table satriasp_paketbuilder_main_tujuan_relation'
+    - builder_table_create_satriasp_paketbuilder_main_tujuan_relation.php
+v1.0.13:
+    - 'Updated table satriasp_paketbuilder_main'
+    - builder_table_update_satriasp_paketbuilder_main_2.php
+v1.0.14:
+    - 'Updated table satriasp_paketbuilder_includes'
+    - builder_table_update_satriasp_paketbuilder_includes.php
+v1.0.15:
+    - 'Updated table satriasp_paketbuilder_tujuan'
+    - builder_table_update_satriasp_paketbuilder_tujuan.php
+v1.0.16:
+    - 'Created table satriasp_paketbuilder_excludes'
+    - builder_table_create_satriasp_paketbuilder_excludes.php
+v1.0.17:
+    - 'Created table satriasp_paketbuilder_main_excludes_relation'
+    - builder_table_create_satriasp_paketbuilder_main_excludes_relation.php
+v1.0.18:
+    - 'Updated table satriasp_paketbuilder_main'
+    - builder_table_update_satriasp_paketbuilder_main_3.php

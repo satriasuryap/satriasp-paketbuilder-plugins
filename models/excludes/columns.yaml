@@ -1,0 +1,6 @@
+columns:
+    excludes:
+        label: Excludes
+        type: text
+        searchable: true
+        sortable: true

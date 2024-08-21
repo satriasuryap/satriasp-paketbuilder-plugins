@@ -1,0 +1,6 @@
+columns:
+    tujuan:
+        label: Tujuan
+        type: text
+        searchable: true
+        sortable: true

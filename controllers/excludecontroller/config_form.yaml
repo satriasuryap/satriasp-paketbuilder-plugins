@@ -1,0 +1,10 @@
+name: ExcludeController
+form: $/satriasp/paketbuilder/models/excludes/fields.yaml
+modelClass: Satriasp\PaketBuilder\Models\Excludes
+defaultRedirect: satriasp/paketbuilder/excludecontroller
+create:
+    redirect: 'satriasp/paketbuilder/excludecontroller/update/:id'
+    redirectClose: satriasp/paketbuilder/excludecontroller
+update:
+    redirect: satriasp/paketbuilder/excludecontroller
+    redirectClose: satriasp/paketbuilder/excludecontroller

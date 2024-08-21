@@ -1,0 +1,11 @@
+columns:
+    judul:
+        label: Judul
+        type: text
+        searchable: true
+        sortable: true
+    deskripsi:
+        label: Deskripsi
+        type: text
+        searchable: true
+        sortable: true

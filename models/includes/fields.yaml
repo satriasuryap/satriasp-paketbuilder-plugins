@@ -1,0 +1,12 @@
+fields:
+    includes:
+        label: Includes
+        span: auto
+        type: text
+    slug:
+        label: slug
+        span: auto
+        preset:
+            field: includes
+            type: slug
+        type: text

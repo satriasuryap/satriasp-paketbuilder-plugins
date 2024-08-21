@@ -1,0 +1,10 @@
+name: PaketController
+modelClass: Satriasp\PaketBuilder\Models\Package
+form: $/satriasp/paketbuilder/models/package/fields.yaml
+defaultRedirect: satriasp/paketbuilder/paketcontroller
+create:
+    redirect: 'satriasp/paketbuilder/paketcontroller/update/:id'
+    redirectClose: satriasp/paketbuilder/paketcontroller
+update:
+    redirect: satriasp/paketbuilder/paketcontroller
+    redirectClose: satriasp/paketbuilder/paketcontroller
