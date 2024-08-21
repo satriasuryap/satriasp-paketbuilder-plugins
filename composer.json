@@ -1,5 +1,5 @@
 {
-    "name": "satriasp/paketbuilder-plugins",
+    "name": "satriasp/paketbuilder-plugin",
     "type": "october-plugin",
     "description": "Maqbulah paketbuilder plugin",
     "keywords": ["paketbuilder", "cms", "demo", "plugin"],
