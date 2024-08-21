@@ -1,5 +1,5 @@
 {
-    "name": "satriasp/paketbuilder",
+    "name": "satriasp/paketbuilder-plugins",
     "type": "october-plugin",
     "description": "Maqbulah paketbuilder plugin",
     "keywords": ["paketbuilder", "cms", "demo", "plugin"],
@@ -7,7 +7,7 @@
     "authors": [
         {
             "name": "Satriasp",
-            "email": "satriasurya0708@gmail.com",
+            "email": "satriasp783@gmail.com",
             "role": "founder"
         }
     ],
