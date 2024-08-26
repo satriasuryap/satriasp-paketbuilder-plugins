@@ -9,9 +9,9 @@ class BuilderTableCreateSatriaspPaketbuilderMainIncludesRelation extends Migrati
     {
         Schema::create('satriasp_paketbuilder_main_includes_relation', function($table)
         {
-            $table->integer('includes_id');
+            $table->integer('include_id');
             $table->integer('main_id');
-            $table->primary(['includes_id','main_id'], 'pk_includes_id_main_id');
+            $table->primary(['include_id','main_id'], 'pk_include_id_main_id');
         });
     }
     
