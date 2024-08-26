@@ -11,7 +11,7 @@ class BuilderTableUpdateSatriaspPaketbuilderMainIncludesRelation2 extends Migrat
         {
             $table->dropPrimary(['includes_id','main_id']);
             $table->renameColumn('main_id', 'package_id');
-            $table->primary(['includes_id','package_id']);
+            $table->primary(['includes_id','package_id'], 'pk_includes_id_package_id');
         });
     }
     
@@ -21,7 +21,7 @@ class BuilderTableUpdateSatriaspPaketbuilderMainIncludesRelation2 extends Migrat
         {
             $table->dropPrimary(['includes_id','package_id']);
             $table->renameColumn('package_id', 'main_id');
-            $table->primary(['includes_id','main_id']);
+            $table->primary(['includes_id','main_id'], 'pk_includes_id_package_id');
         });
     }
 }
