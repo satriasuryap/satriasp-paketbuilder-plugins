@@ -11,7 +11,7 @@ class BuilderTableCreateSatriaspPaketbuilderMainTujuanRelation extends Migration
         {
             $table->integer('tujuan_id');
             $table->integer('package_id');
-            $table->primary(['tujuan_id','package_id']);
+            $table->primary(['tujuan_id','package_id'], 'pk_tujuan_id_package_id');
         });
     }
     
