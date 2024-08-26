@@ -11,7 +11,7 @@ class BuilderTableCreateSatriaspPaketbuilderMainExcludesRelation extends Migrati
         {
             $table->integer('excludes_id');
             $table->integer('package_id');
-            $table->primary(['excludes_id','package_id']);
+            $table->primary(['excludes_id','package_id'], 'pk_excludes_id_package_id');
         });
     }
     
